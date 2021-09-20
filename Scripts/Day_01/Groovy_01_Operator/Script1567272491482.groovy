@@ -4,14 +4,16 @@
 println("5 + 3 = " + (5 + 3))
 println("5 - 3 = " + (5 - 3))
 println("5 * 3 = " + (5 * 3))
-println("5 / 3 = " + (5.intdiv(3)))
+println("5 / 3 = " + (5 / 3))
 println("5 % 3 = " + (5 % 3))
 
 // Floating point math operators
 println("1.2 + 3 = " + (1.2.plus(3)))
 println("1.2 - 3 = " + (1.2.minus(3)))
 println("1.2 * 3 = " + (1.2.multiply(3)))
-println("1.2 / 3 = " + (1.2 / 3))
+println("1.2 / 3 = " + (1.2.div(3)))
+// Special
+println("5 / 3 = " + (5.intdiv(3)))
 
 // Order of operations
 println("1 + 2 * 3 = " + (1 + 2 * 3))
@@ -27,8 +29,7 @@ println("--age = " + (--age))
 // Math Functions
 println("Math.abs(-5.4) = " + (Math.abs(-5.4)))
 println("Math.round(3.45) = " + (Math.round(3.45)))
-println("3.pow(3) = " + (Math.pow(3, 3)))
-println("3.0.equals(3.0) = " + (3.0.equals(3.0)))
+println("Math.pow(3, 3) = " + (Math.pow(3, 3)))
 println("Math.sqrt(9) = " + (Math.sqrt(9)))
 println("Math.cbrt(27) = " + (Math.cbrt(27)))
 println("Math.ceil(2.45) = " + (Math.ceil(2.45)))
