@@ -2,13 +2,14 @@
 
 // Define string
 def name = "Dryan"
-println('I am ${name}')
-println("I am ${name}")
 println("My Name " + name)
 println("My Name ".concat(name))
+println('I am ${name}')
+println("I am ${name}")
 
 // Get string length
 println("Size " + name.length())
+
 // Check for equality
 println('Dryan'.equals('Dryan'))
 println('Dryan'.equalsIgnoreCase('dryan'))
